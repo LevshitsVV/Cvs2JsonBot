@@ -4,6 +4,7 @@ const converter = require('csvtojson');
 const bot = new Composer();
 
 bot.on('message', (ctx)=>{
+    ctx.reply("Converting....");
     log(ctx.message);
     converter()
     .fromString(ctx.message)
