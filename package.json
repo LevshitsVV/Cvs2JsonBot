@@ -1,0 +1,30 @@
+{
+  "name": "cvs2jsonbot",
+  "version": "0.0.1",
+  "description": "Cvs to JSON converter bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0",
+    "start": "micro-bot -p ${PORT}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LevshitsVV/Cvs2JsonBot.git"
+  },
+  "keywords": [
+    "Telegram",
+    "Telegram",
+    "Bot",
+    "bot",
+    "micro-bot"
+  ],
+  "author": "levshitsvv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LevshitsVV/Cvs2JsonBot/issues"
+  },
+  "homepage": "https://github.com/LevshitsVV/Cvs2JsonBot#readme",
+  "dependencies": {
+    "micro-bot": "^1.3.1"
+  }
+}
