@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/LevshitsVV/Cvs2JsonBot#readme",
   "dependencies": {
+    "csvtojson": "^1.1.7",
     "micro-bot": "^1.3.1"
   }
 }
