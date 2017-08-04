@@ -1,0 +1,14 @@
+services:
+  - docker
+env:
+  matrix:
+    - DOCKER_IMAGE=cvs2jsonbot
+language: node_js
+node_js:
+  - "7"
+install:
+  - npm install
+
+after_success:
+  - sh .travis/deploy_dockerhub.sh
+  - test “$TRAVIS_BRANCH” = “master” && sh .travis/deploy_heroku.sh
